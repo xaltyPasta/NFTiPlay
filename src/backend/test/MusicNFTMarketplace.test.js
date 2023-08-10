@@ -48,7 +48,7 @@ describe("MusicNFTMarketplace", function () {
         expect(item.price).to.equal(i)
       }))
     });
-    it("Ether balance should equal deployment fees", async function () {
+    it("Ether balance should be equal to deployment fees", async function () {
       expect(await ethers.provider.getBalance(nftMarketplace.address)).to.equal(deploymentFees)
     });
 
