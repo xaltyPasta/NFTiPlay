@@ -37,7 +37,7 @@ function App() {
   }
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" >
         <>
           <Navbar expand="lg" bg="secondary" variant="dark">
             <Container>
