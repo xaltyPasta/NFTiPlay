@@ -1,4 +1,4 @@
-# NFT Music Player
+# NFT Music Platform
 
 ## Technology Stack & Tools
 
